@@ -1,82 +1,25 @@
-/* ==========================================================================
-   DannyWeb Limited 2015
-   ========================================================================== */
-
-body {
-  background-color:slategrey;
-  position: relative;
+over {
+    text-decoration: underline;
 }
-
-body span {
-  position: fixed;
-  bottom: -950px;
-  left: 0px;
-  font-family: 'Dancing Script', cursive;
-  font-size: 160em;
-  margin: 0;
-  padding: 0;
-  opacity: 0.1;
-}
-
-div.dannyweb {
-  position: fixed;
-  bottom: 120px;
-  left: 60px;
-}
-
-h1, h2 {color:black}
-
 h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 4em;
-  margin: 0.37em 0;
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
 }
 
-h2 {
-  font-family: 'Ledger', serif;
-  font-size: 18px;
-  line-height: 1.4em;
-  margin-bottom: 0;
-  width: 500px;
-  margin-bottom: 22px;
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
 }
 
-a {
-  font-weight: light;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 13px;
-  color:black;
+ul.posts li {
+    list-style: none;
 }
-
-a:hover {
-  opacity:1;
-  color:black;
-  text-decoration: underline;
-}
-
-@media (max-width:650px) {
-  div.dannyweb {
-    position: fixed;
-    top: 60px;
-    left: 10px;
-  }
-  h2 {width: 100%}
-  a, a:hover {color:black}
-}
-
-p.pgp {
-  color:black;
-  font-size: 10px;
-}
-
-p.pgp a {font-size:10px}
-
-/* ==========================================================================
-   DannyWeb Limited 2016 Tweaks
-   ========================================================================== */
-
-body {background:none;border-top:10px solid black}
-span {display:none}
-h2+ a {border:1px solid black;padding:5px;color:white;background:black}
-h2+ a:hover {color:white;text-decoration:underline}
