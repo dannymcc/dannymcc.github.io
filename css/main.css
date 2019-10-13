@@ -48,6 +48,6 @@ footer {
     padding-top: 30px;
 }
 
-.places-list ul li.year {list-style:none;font-weight:bold;font-size:1.3em;padding-bottom:5px;padding-left:0px}
-.places-list ul li.month {list-style:none;font-weight:bold;font-size:1.3em;padding-bottom:5px;padding-left: 10px}
-.places-list ul li {list-style:none;padding-left: 20px}
+.container .places-list ul li.year {list-style:none;font-weight:bold;font-size:1.3em;padding-bottom:5px;padding-left:0px}
+.container .places-list ul li.month {list-style:none;font-weight:bold;font-size:1.3em;padding-bottom:5px;padding-left: 10px}
+.container .places-list ul li {list-style:none;padding-left: 20px;line-height:1.6em}
