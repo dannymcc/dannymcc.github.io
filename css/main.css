@@ -48,11 +48,6 @@ footer {
     padding-top: 30px;
 }
 
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
+.places-list ul li.year {list-style:none;font-weight:bold;font-size:1.3em;padding-bottom:5px;padding-left:0px}
+.places-list ul li.month {list-style:none;font-weight:bold;font-size:1.3em;padding-bottom:5px;padding-left: 10px}
+.places-list ul li {list-style:none;padding-left: 20px}
