@@ -1,3 +1,9 @@
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  nav ul, footer ul {
+      font-size: 13px;
+  }
+}
+
 body {
     margin: 60px auto;
     width: 70%;
