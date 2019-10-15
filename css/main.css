@@ -45,6 +45,7 @@ p {
     color: #ffffff;
 }
 footer {
+    font-family: 'Reenie Beanie', cursive;
     background-color:#7e4950;
     font-size: .8em;
     position:fixed;
