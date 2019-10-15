@@ -57,6 +57,9 @@ footer {
     line-height: 0;
 }
 
+footer {opacity:0.3}
+footer:hover {opacity:1}
+
 .container .blurb {
     padding-top: 30px;
 }
