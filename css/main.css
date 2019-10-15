@@ -45,10 +45,12 @@ p {
     color: #ffffff;
 }
 footer {
+    background-color:#7e4950;
     font-size: .8em;
     position:fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 0px;
+    padding-left:30px
 }
 
 .container .blurb {
