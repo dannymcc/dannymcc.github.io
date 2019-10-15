@@ -47,11 +47,14 @@ p {
 footer {
     font-family: 'Dancing Script', cursive;
     background-color:#7e4950;
-    font-size: .8em;
+    font-size: 2em;
     position:fixed;
     bottom: 30px;
     right: 0px;
-    padding-left:30px
+    padding-left:30px;
+    padding-top:2px;
+    padding-right:10px;
+    line-height: 0;
 }
 
 .container .blurb {
